@@ -6,18 +6,18 @@ reprint:
 # blog config
 blog:
   # Choose a theme by name
-  theme: 'develop'
-  title: 'reprint'
+  theme: 'bootstrap3-default'
+  title: 'CodyDeeds'
   subtitle: 'blockchain powered blog engine'
   # Filter the content to
   filters:
     # Accounts to load activity of
     accounts:
-      'greymass':
+      'codydeeds':
         - post
         - reblog
     tags:
-      - greymass
+      - life
 
 # steemd connection
 steem:
